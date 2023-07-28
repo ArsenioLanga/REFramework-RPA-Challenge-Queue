@@ -2,7 +2,7 @@
   <x:Members>
     <x:Property Name="in_TransactionItem" Type="InArgument(ui:QueueItem)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>866,2471</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>536,2471</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -137,7 +137,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="06cd6e28-dd9c-4118-92bc-c31f430beb51" Text="[in_TransactionItem.SpecificContent(&quot;Email&quot;).ToString]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="06cd6e28-dd9c-4118-92bc-c31f430beb51" Text="[in_TransactionItem.SpecificContent(&quot;Last Name &quot;).ToString]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://rpachallenge.com/" DesignTimeRectangle="738, 473, 259, 46" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT y7Sb8'" FullSelectorArgument="&lt;webctrl name='y7Sb8' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='y7Sb8' tag='INPUT' type='' class='ng-untouched ng-pristine ng-invalid' aaname='' /&gt;" Guid="66837cc0-6b85-47f5-b757-b2068e3fdc68" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQcAAAAyCAYAAABRax4NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVHhe7dYxDQAxEASx8AdxVO+bV6oJA1taCqM9CxDEAUjiACRxAJI4AEkcgCQOQBIHIIkDkMQBSOIAJHEAkjgASRyAJA5AEgcgiQOQxAFI4gAkcQCSOABJHIAkDkASByCJA5DEAUjiACRxAJI4AEkcgCQOQBIHIIkDkMQBSOIAJHEAkjgASRyAJA5AEgcgiQOQxAFI4gAkcQCSOABJHIAkDkC6cZgZM7O/CJ4D8CAOQNj9AJc4kAXuvr6oAAAAAElFTkSuQmCC" InformativeScreenshot="9eaba2b74743a2e526f89be5a49437cf.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
